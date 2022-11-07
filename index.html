@@ -1,19 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS SCHEDULE</title>
     <link rel="icon" href="img/schedule.png" type="image/gif" sizes="16x16">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
 </head>
+
 <body>
+    <!-- MODALS START HERE -->
+
+    <!-- Modal for Intelligent Systems-->
+    <div class="modal fade" id="INTELSYS" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Intelligent Systems</h5>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <div class="modal-body text-center">
+                    <p>[MEETING LINK]</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark px-5 btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Operating System LAB-->
+    <div class="modal fade" id="OPERSYSTLAB" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Operating System (LAB)</h5>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <div class="modal-body text-center">
+                    <p>[MEETING LINK]</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark px-5 btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Application Development and Emerging Technology LAB-->
+    <div class="modal fade" id="APDEVLAB" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title" id="exampleModalLabel">Application Development and Emerging Technology (LAB)</h6>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <div class="modal-body text-center">
+                    <p>[MEETING LINK]</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark px-5 btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALS END HERE -->
+
     <div class="container text-center">
-        <h1 class="my-5">My Schedule</h1>
+        <h1 class="my-4">My Class Schedule</h1>
         <div class="row">
             <div class="col-md-3 mb-3">
                 <div class="card">
@@ -21,47 +97,62 @@
                         <h4>Monday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" id="INTELSYS"><i class="bi bi-calendar2-heart"></i> 10:00 AM - 1:00 PM</button>
-                        <button class="btn btn-dark my-3" id="OPERSYSTLAB"><i class="bi bi-calendar2-heart"></i> 02:30 PM - 05:30 PM</button>
-                        <button class="btn btn-dark my-3" id="APDEVLAB"><i class="bi bi-calendar2-heart"></i> 6:00 PM - 9:00 PM</button>
-                    </div>
-                </div>
-            </div>  
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                    <div class="card-header">
-                        <h3>Tuesday</h3>
-                    </div>
-                    <div class="card-body">
-                        <button class="btn btn-dark my-3" id="ALGCMPLX"><i class="bi bi-calendar2-heart"></i> 01:00 PM - 4:00 PM</button>
-                        <button class="btn btn-dark my-3" id="ARCHIORG"><i class="bi bi-calendar2-heart"></i> 06:00 PM - 9:00 PM</button>
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#INTELSYS"><i class="bi bi-calendar2-heart"></i> 10:00 AM -
+                            1:00 PM</button>
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#OPERSYSTLAB"><i class="bi bi-calendar2-heart"></i> 02:30
+                            PM - 05:30 PM</button>
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#APDEVLAB"><i class="bi bi-calendar2-heart"></i> 6:00 PM -
+                            9:00 PM</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card">
                     <div class="card-header">
-                        <h3>Wednesday</h3>
+                        <h4>Tuesday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" id="OPERSYSTLEC"><i class="bi bi-calendar2-heart"></i> 03:00 PM - 5:00 PM</button>
-                        <button class="btn btn-dark my-3" id="APDEVLEC"><i class="bi bi-calendar2-heart"></i> 06:00 PM - 8:00 PM</button>
-                        <button class="btn btn-dark my-3" id="HUCOMINT"><i class="bi bi-calendar2-heart"></i> 8:00 PM - 9:00 PM</button>
+                        <button class="btn btn-dark my-3" id="ALGCMPLX"><i class="bi bi-calendar2-heart"></i> 01:00 PM -
+                            4:00 PM</button>
+                        <button class="btn btn-dark my-3" id="ARCHIORG"><i class="bi bi-calendar2-heart"></i> 06:00 PM -
+                            9:00 PM</button>
                     </div>
                 </div>
             </div>
             <div class="col-md-3 mb-3">
                 <div class="card">
                     <div class="card-header">
-                        <h3>Saturday</h3>
+                        <h4>Wednesday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" id="SOFTENG1LEC"><i class="bi bi-calendar2-heart"></i> 4:00 PM - 6:00 PM</button>
-                        <button class="btn btn-dark my-3" id="SOFTENG1LAB"><i class="bi bi-calendar2-heart"></i> 6:00 PM - 9:00 PM</button>
+                        <button class="btn btn-dark my-3" id="OPERSYSTLEC"><i class="bi bi-calendar2-heart"></i> 03:00
+                            PM - 5:00 PM</button>
+                        <button class="btn btn-dark my-3" id="APDEVLEC"><i class="bi bi-calendar2-heart"></i> 06:00 PM -
+                            8:00 PM</button>
+                        <button class="btn btn-dark my-3" id="HUCOMINT"><i class="bi bi-calendar2-heart"></i> 8:00 PM -
+                            9:00 PM</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Saturday</h4>
+                    </div>
+                    <div class="card-body">
+                        <button class="btn btn-dark my-3" id="SOFTENG1LEC"><i class="bi bi-calendar2-heart"></i> 4:00 PM
+                            - 6:00 PM</button>
+                        <button class="btn btn-dark my-3" id="SOFTENG1LAB"><i class="bi bi-calendar2-heart"></i> 6:00 PM
+                            - 9:00 PM</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!-- Bootstrap Scripts start here! -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <!-- Bootstrap Scripts end here! -->
+
 </body>
 </html>
