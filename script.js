@@ -1,3 +1,3 @@
-$(document).ready(function () {
-    alert('Hello welcome to my page');
-});
+// $(document).ready(function () {
+//     alert('Hello welcome to my page');
+// });
