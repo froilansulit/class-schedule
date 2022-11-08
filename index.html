@@ -38,6 +38,7 @@
                 </div>
                 <div class="modal-body text-center">
                     <p>[MEETING LINK]</p>
+                    <small class="text-muted"> [Teacher/Proffesor Name]</small>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-dark px-5 btn-block" data-dismiss="modal">Close</button>
@@ -58,6 +59,7 @@
                 </div>
                 <div class="modal-body text-center">
                     <p>[MEETING LINK]</p>
+                    <small class="text-muted"> [Teacher/Proffesor Name]</small>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-dark px-5 btn-block" data-dismiss="modal">Close</button>
@@ -78,6 +80,28 @@
                 </div>
                 <div class="modal-body text-center">
                     <p>[MEETING LINK]</p>
+                    <small class="text-muted"> [Teacher/Proffesor Name]</small>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-dark px-5 btn-block" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Algorithm and Complexity -->
+    <div class="modal fade" id="ALGCMPLX" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title text-center">Algorithm and Complexity</h6>
+                    <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                </div>
+                <div class="modal-body text-center">
+                    <p>[MEETING LINK]</p>
+                    <small class="text-muted"> [Teacher/Proffesor Name]</small>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-outline-dark px-5 btn-block" data-dismiss="modal">Close</button>
@@ -112,9 +136,9 @@
                         <h4><i class="bi bi-calendar2-heart"></i> Tuesday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" id="ALGCMPLX"><i class="bi bi-clock"></i> 1:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#ALGCMPLX"><i class="bi bi-clock"></i> 1:00 PM -
                             4:00 PM</button>
-                        <button class="btn btn-dark my-3" id="ARCHIORG"><i class="bi bi-clock"></i> 6:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#ARCHIORG"><i class="bi bi-clock"></i> 6:00 PM -
                             9:00 PM</button>
                     </div>
                 </div>
@@ -125,11 +149,11 @@
                         <h4><i class="bi bi-calendar2-heart"></i> Wednesday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" id="OPERSYSTLEC"><i class="bi bi-clock"></i></i> 3:00
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#OPERSYSTLEC"><i class="bi bi-clock"></i></i> 3:00
                             PM - 5:00 PM</button>
-                        <button class="btn btn-dark my-3" id="APDEVLEC"><i class="bi bi-clock"></i></i> 6:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#APDEVLEC"><i class="bi bi-clock"></i></i> 6:00 PM -
                             8:00 PM</button>
-                        <button class="btn btn-dark my-3" id="HUCOMINT"><i class="bi bi-clock"></i></i> 8:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#HUCOMINT"><i class="bi bi-clock"></i></i> 8:00 PM -
                             9:00 PM</button>
                     </div>
                 </div>
@@ -140,9 +164,9 @@
                         <h4><i class="bi bi-calendar2-heart"></i> Saturday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" id="SOFTENG1LEC"><i class="bi bi-clock"></i> 4:00 PM
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#SOFTENG1LEC"><i class="bi bi-clock"></i> 4:00 PM
                             - 6:00 PM</button>
-                        <button class="btn btn-dark my-3" id="SOFTENG1LAB"><i class="bi bi-clock"></i> 6:00 PM
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#SOFTENG1LAB"><i class="bi bi-clock"></i> 6:00 PM
                             - 9:00 PM</button>
                     </div>
                 </div>
@@ -154,6 +178,5 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <!-- Bootstrap Scripts end here! -->
-
 </body>
 </html>
