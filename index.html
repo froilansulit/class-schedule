@@ -5,31 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CS SCHEDULE</title>
-    <link rel="icon" href="img/schedule.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="images/schedule.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-    <link rel='stylesheet/less' type='text/css' href='style.less'>
+    <link rel='stylesheet/less' type='text/css' href='stylesheets/style.less'>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/4.1.3/less.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
         integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- <script src="script.js"></script> -->
-    <script> 
-        $(document).ready(function () {
-            $("#modalContents").load("modals.html"); 
-        });
-    </script> 
+    <script src="javascripts/script.js"></script>
 
 </head>
 <body>
-    
     <div id="modalContents"></div>
-
     <div class="container text-center">
         <h1 class="my-4" id="title_page">My Class Schedule</h1>
         <div class="row">
@@ -39,11 +32,14 @@
                         <h4><i class="bi bi-calendar2-heart"></i> Monday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#INTELSYS"><i class="bi bi-clock"></i> 10:00 AM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#INTELSYS"><i
+                                class="bi bi-clock"></i> 10:00 AM -
                             1:00 PM</button>
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#OPERSYSTLAB"><i class="bi bi-clock"></i> 2:30
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#OPERSYSTLAB"><i
+                                class="bi bi-clock"></i> 2:30
                             PM - 5:30 PM</button>
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#APDEVLAB"><i class="bi bi-clock"></i> 6:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#APDEVLAB"><i
+                                class="bi bi-clock"></i> 6:00 PM -
                             9:00 PM</button>
                     </div>
                 </div>
@@ -54,9 +50,11 @@
                         <h4><i class="bi bi-calendar2-heart"></i> Tuesday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#ALGCMPLX"><i class="bi bi-clock"></i> 1:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#ALGCMPLX"><i
+                                class="bi bi-clock"></i> 1:00 PM -
                             4:00 PM</button>
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#ARCHIORG"><i class="bi bi-clock"></i> 6:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#ARCHIORG"><i
+                                class="bi bi-clock"></i> 6:00 PM -
                             9:00 PM</button>
                     </div>
                 </div>
@@ -67,11 +65,14 @@
                         <h4><i class="bi bi-calendar2-heart"></i> Wednesday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#OPERSYSTLEC"><i class="bi bi-clock"></i></i> 3:00
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#OPERSYSTLEC"><i
+                                class="bi bi-clock"></i></i> 3:00
                             PM - 5:00 PM</button>
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#APDEVLEC"><i class="bi bi-clock"></i></i> 6:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#APDEVLEC"><i
+                                class="bi bi-clock"></i></i> 6:00 PM -
                             8:00 PM</button>
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#HUCOMINT"><i class="bi bi-clock"></i></i> 8:00 PM -
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#HUCOMINT"><i
+                                class="bi bi-clock"></i></i> 8:00 PM -
                             9:00 PM</button>
                     </div>
                 </div>
@@ -82,22 +83,25 @@
                         <h4><i class="bi bi-calendar2-heart"></i> Saturday</h4>
                     </div>
                     <div class="card-body">
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#SOFTENG1LEC"><i class="bi bi-clock"></i> 4:00 PM
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#SOFTENG1LEC"><i
+                                class="bi bi-clock"></i> 4:00 PM
                             - 6:00 PM</button>
-                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#SOFTENG1LAB"><i class="bi bi-clock"></i> 6:00 PM
+                        <button class="btn btn-dark my-3" data-toggle="modal" data-target="#SOFTENG1LAB"><i
+                                class="bi bi-clock"></i> 6:00 PM
                             - 9:00 PM</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
     <footer class="text-center my-3">
-        <a href="https://github.com/froilansulit" id="github_account" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+        <a href="https://github.com/froilansulit" id="github_account" target="_blank" rel="noopener noreferrer"><i
+                class="bi bi-github"></i></a>
     </footer>
-
     <!-- Bootstrap Scripts start here! -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap Scripts end here! -->
 </body>
 </html>
