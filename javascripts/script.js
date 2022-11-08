@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    $("#modalContents").load("modals.html"); 
+    $("#modalContents").load("modals.html"); // THIS WILL LOAD MODAL.HTML
 });
