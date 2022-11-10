@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body { 
+    font-family: 'Poppins', sans-serif; 
+    overflow-x: hidden; 
+}
+
+#github_account, #title_page {
+    background-image: linear-gradient(
+        to right,
+        #067BC2,
+        #067BC2 50%,
+        #000 50%
+    );
+    font-size: 2.5rem;
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out; 
+}
+
+#github_account:before, #title_page:before{
+    content: '';
+    background: #067BC2;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+#github_account:hover, #title_page:hover {
+    background-position: 0;
+}
+
+#github_account:hover::before, #title_page:hover::before{ 
+    width: 100%;
+}
