@@ -4,7 +4,7 @@ You can now easily manage your class schedule and join class meetings by pressin
 - Visual Studio Code
 - Any Live Server
 ## Live Demo
-  <a href="https://froilansulit.github.io/class-schedule/" target="_blank" rel="noopener noreferrer">Class Schedule Demo</a>
+  [Class Schedule Demo](https://froilansulit.github.io/class-schedule/)
 ## Deployment
 - [Netlify](https://www.netlify.com)
 - [Vercel](https://vercel.com/)
