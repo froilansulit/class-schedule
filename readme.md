@@ -1,8 +1,7 @@
 # Class Schedule
 You can now easily manage your class schedule and join class meetings by pressing the respective schedule using this app. You can also modify the content based on your schedule, and you can add a meeting link.
 ## Requirements
-- Visual Studio Code
-- Any Live Server
+- Any Code Editor
 ## Live Demo
   [Class Schedule Demo](https://froilansulit.github.io/class-schedule/)
 ## Deployment
