@@ -4,7 +4,7 @@ You can now easily manage your class schedule and join class meetings by pressin
 - Any Code Editor
 ## Live Demo
   [Class Schedule Demo](https://froilansulit.github.io/class-schedule/)
-## Deployment
+## Free Deployment Website
 - [Netlify](https://www.netlify.com)
 - [Vercel](https://vercel.com/)
 - [Neocities](https://neocities.org)
